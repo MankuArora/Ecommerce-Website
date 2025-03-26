@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt="Logo"></a>
+        <div></div>
+            <ul id="navbar" class="categories">
+                <a id="close" href="#"><img src="img/close.svg" alt=""> </a>
+                <li><a href="home.html">Home</a></li>
+
+                <button id="KidBtn">Kids</button>
+
+                <div id="KidCategories" class="sub-categories">
+                    <ul>
+                        <li><a href="boy.html">Boy</a></li>
+                        <li><a href="girl.html">Girl</a></li>
+                        <li><a href="infant.html">Infant</a></li>
+                    </ul>
+                </div>
+                
+                
+                <button id="menBtn">Men</button>
+
+                <div id="menCategories" class="sub-categories">
+                    <ul>
+                        <li><a href="tshirt.html">T-Shirts</a></li>
+                        <li><a href="shirt.html">Shirts</a></li>
+                        <li><a href="pants.html">Jeans</a></li>
+                    </ul>
+                </div>
+
+                <button id="womenBtn">Women</button>
+
+        
+
+        <div id="womenCategories" class="sub-categories">
+            <ul>
+                <li><a href="tops.html">Tops</a></li>
+                <li><a href="dresses.html">Dresses</a></li>
+                <li><a href="skirts.html">Skirts</a></li>
+            </ul>
+        </div>
+        <li><a href="Blog.html">Blog</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a id="bag" class="active" href="Cart.html"><img src="img/bag.svg" alt="Cart"></a></li>
+
+                <!--
+                <li><a href="tshirt.html">T-Shirt</a></li>
+                
+                -->
+                
+                
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="Cart.html"><img src="img/bag.svg" alt="Cart"></a>
+            <img id="bar" src="img/hammburger.svg" alt="" onclick="toggleMenu()">
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h1>#let's_talk</h1>
+        <p>LEAVE A MESSAGE.We love to hear from you! </p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#"><img src="img/close.svg" alt=""></a></td>
+                <td><img class="img" src="img/products/f1.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirts</td>
+                <td>$118.19</td>
+                <td><input type="number" value="1"></td>
+                <td>$118.19</td>
+            </tr>
+            <tr>
+                <td><a href="#"><img src="img/close.svg" alt=""></a></td>
+                <td><img class="img" src="img/products/f2.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirts</td>
+                <td>$118.19</td>
+                <td><input type="number" value="1"></td>
+                <td>$118.19</td>
+            </tr>
+            <tr>
+                <td><a href="#"><img src="img/close.svg" alt=""></a></td>
+                <td><img class="img" src="img/products/f3.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirts</td>
+                <td>$118.19</td>
+                <td><input type="number" value="1"></td>
+                <td>$118.19</td>
+            </tr>
+            <tr>
+                <td><a href="#"><img src="img/close.svg" alt=""></a></td>
+                <td><img class="img" src="img/products/f4.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirts</td>
+                <td>$118.19</td>
+                <td><input type="number" value="1"></td>
+                <td>$118.19</td>
+            </tr>
+            <tr>
+                <td><a href="#"><img src="img/close.svg" alt=""></a></td>
+                <td><img class="img" src="img/products/f5.jpg" alt=""></td>
+                <td>Cartoon Astronaut T-Shirts</td>
+                <td>$118.19</td>
+                <td><input type="number" value="1"></td>
+                <td>$118.19</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon-Code">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 335</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$ 335</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed To Check-Out</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" height="40px" src="img/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> 3575 gali no 9 sgm nagar</p>
+            <p><strong>Phone: </strong> 8810577019</p>
+            <p><strong>Hours: </strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <img src="img/icons/facebook.svg" alt="">
+                    <img src="img/icons/pinterest.svg" alt="">
+                    <a href="https://www.instagram.com/_mayank.x_/"><img src="img/icons/instagram.svg" alt=""></a>
+                    <img src="img/icons/youtube.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms 7 Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secured Payments Gateways </p>
+            <img src="img/pay/pay.png" alt="">
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
